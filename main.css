@@ -1,0 +1,50 @@
+.navbar{
+  opacity: 0.8;
+}
+.main{
+  background-color: #ff99c2;
+  padding-top: 90px;
+  padding-bottom: 200px;
+  margin-top: -12px;
+  transform: skewY(-4deg);
+  border-bottom-right-radius: 50px;
+}
+
+/*Automatic Slide Show*/
+
+
+.mySlides {
+  transform: skewY(4deg);
+  display:none;
+
+
+}
+
+
+
+
+/*-----------Home Page----------*/
+
+
+.home-page{
+  transform: skewY(4deg);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.Life{
+  color: #ff0066;
+  font-family: 'Amaranth';
+  font-size: 60px;
+  
+}
+.life-style{
+  font-weight: 100;
+  color: #ff0066;
+}
+.collections{
+  letter-spacing: 5px;
+  margin-top: -5px;
+  text-transform: uppercase;
+  margin-left: 7px;
+  color: white
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="main.css">
+ <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ <!-- Google Material -->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+ <!-- google fonts -->
+ <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+</head>
+<body>
+<!-- navigation -->
+
+    <nav class=" navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a  class="navbar-brand" href="#"><strong style="  color: white;">Life</strong> Style</a>
+      <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span  class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a  class="nav-link link" href="#">Home</span></a>
+      </li>
+      <li class="nav-item ">
+        <a  class="nav-link link" href="#menu-box">Fernicher Menu</span></a>
+      </li>
+       
+       <li class="nav-item ">
+        <a  class="nav-link link" href="#payment">Payment details</span></a>
+      </li>
+       <li class="nav-item ">
+        <a  class="nav-link link" href="tel:917276039573">Call developer</span></a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+
+
+<!--x-x-x-x-x-x-x-x-x-x-  -->
+
+
+
+
+<div class="container main">
+      <!-- Automatic SlideShow -->
+       <div class="home-page">
+        <center>
+          <h1 class="life-style"><strong class="Life">Life</strong> Style</h1> 
+          <p class="collections">Wear the swag</p>
+          <div class="contact">
+          
+          
+        </div>
+        </center>
+      </div>
+      <center class = "SlideShow-event ">
+        <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlides thumbnail" src="img/f1.jpg" style="width:80%">
+        <img class="mySlides thumbnail" src="img/f2.jpg" style="width:80%">
+        <img class="mySlides thumbnail" src="img/f3.jpg" style="width:80%">
+        <img class="mySlides thumbnail" src="img/f4.jpg" style="width:80%">
+      </div>
+      <ul style="list-style: none;display: inline-flex;margin-top: 30px;transform: skewY(4deg);">
+            <li><a href="#" class="material-icons" style="font-size: 25px;margin-right: 50px;align-items: center;margin-top: 20px;color: #ff0066;">call</a></li>
+            <li><a href="#" class="material-icons" style="font-size: 25px;margin-right: 50px;align-items: center;margin-top: 20px;color: #ff0066;">chat</a></li>
+            <li><a href="#" class="material-icons" style="font-size: 25px;margin-right: 50px;align-items: center;margin-top: 20px;color: #ff0066;">mail</a></li>
+            <li><a href="#" class="material-icons" style="font-size: 25px;margin-right: 50px;align-items: center;margin-top: 20px;color: #ff0066;">place</a></li>
+          </ul>
+      </center>
+
+
+     
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<!-- Automatic Slide Show -->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<!-- -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x- -->
+
+<!-- Nav Bar -->
+
+
+<script type="text/javascript">
+  $('.nav-link').on('click',function() {
+  $('.navbar-collapse').collapse('hide');
+});
+</script>
+
+
+<!-- x-x-x-x-x-x- -->
+   
+</body>
+</html> 
